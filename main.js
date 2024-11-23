@@ -1,5 +1,5 @@
 import Phaser from "phaser";
-import CollectingStar from "./src/sceen/CollectingStarSceen";
+import CoronaBusterScene from "./src/scenes/CoronaBusterScene";;
 
 export default new Phaser.Game({
   mode: "debug",
@@ -14,7 +14,7 @@ export default new Phaser.Game({
       },
     },
   },
-  width: 800,
-  height:585,
-  scene: [CollectingStar],
+  width: 400,
+  height: 620,
+  scene: [CoronaBusterScene],
 });
